@@ -1,1 +1,91 @@
 /* Add your CSS style definitions to this file */
+body{
+    margin-top: 0em;
+    margin-left: 4em;
+    margin-right: 4em;
+    margin: 0em;
+
+    font-family: 'Open Sans';
+    font-size: 1rem;
+
+    background-color: #f9f9f9;
+
+    /*set up to make the article center*/
+    position: relative;
+}
+
+article{
+    /*to make the article center*/
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 5%);
+
+    background-color: white;
+}
+
+h1, blockquote{
+    font-family: 'Roboto Slab';
+}
+
+h1{
+    font-size: 2rem;
+    color: #9f2042;
+    margin: 20pt;
+}
+
+blockquote{
+    font-size: 1.25rem;
+}
+
+article h1, #details, p, blockquote{
+    text-align: center;
+}
+
+h1{
+    text-transform: uppercase
+}
+
+blockquote{
+    border-style: solid;
+    border-color: #ececec;
+
+    background-color: #f9f9f9;
+}
+
+article footer p{
+    text-align: left;
+}
+
+#buttons{
+    margin: 2%;
+}
+
+#buttons a{
+    text-decoration: none;
+    color: #9f2042;
+    padding: 1%;
+
+    border-style: solid;
+    border-color: #ececec;
+
+    /*making the border round*/
+    border-radius: 5px;
+}
+
+#buttons a:hover{
+    background-color: #9f2042;
+    color: white;
+}
+
+footer{
+    padding: 2%;
+    background-color: #29293a;
+}
+
+footer p{
+    color: white;
+}
+
+footer a{
+    color: #9f2042;
+}
